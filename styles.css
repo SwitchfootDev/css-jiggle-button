@@ -1,0 +1,75 @@
+body {
+    background-color: dimgray;
+}
+
+/*  25 css button hover effects:
+
+https://freefrontend.com/css-button-hover-effects/
+
+https://www.sliderrevolution.com/resources/css-button-hover-effects/
+*/
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300;
+    margin: 250px;
+    padding: 75px;
+    
+}
+
+.jiggle-btn1 {
+ background-color: white;
+ 
+}
+
+.jiggle-btn1:hover {
+    background-color: fuchsia;
+    color: whitesmoke;
+    animation: shake 0.5s; 
+}
+
+.jiggle-btn2 {
+    background-color: white;
+}
+
+.jiggle-btn2:hover {
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    animation: shake 0.5s; 
+}
+
+.jiggle-btn3 {
+    background-color: white;
+    
+}
+
+.jiggle-btn3:hover {
+    background-color: orange;
+    color: whitesmoke;
+    animation: shake 0.5s; 
+}
+
+.jiggle-btn4 {
+    background-color: white;
+    
+}
+
+.jiggle-btn4:hover {
+    background-color: dodgerblue;
+    color: whitesmoke;
+    animation: shake 0.5s; 
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
